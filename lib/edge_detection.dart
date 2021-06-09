@@ -50,6 +50,7 @@ class EdgeDetection {
       BORDER_ISOLATED = 16;
 
 
+
   ///Constants util for [MorphologyEx]
   static const int MORPH_ERODE = 0,
       MORPH_DILATE = 1,

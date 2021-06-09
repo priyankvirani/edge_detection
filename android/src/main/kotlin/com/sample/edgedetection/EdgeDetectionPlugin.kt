@@ -17,6 +17,7 @@ import org.opencv.android.OpenCVLoader
 import org.opencv.core.Core
 
 
+
 class EdgeDetectionPlugin(
     private val registrar: Registrar,
     private val delegate: EdgeDetectionDelegate
@@ -281,7 +282,7 @@ class EdgeDetectionPlugin(
                                 call.argument<Int>("outputType") as Int,
                                 result)
                     } catch (e: Exception) {
-                        result.error("OpenCV-Error", ": "+e.message, e)
+                        result.error("OpenCV-Error", "Android: "+e.message, e)
                     }
                 }
                 //Module: Miscellaneous Image Transformations
