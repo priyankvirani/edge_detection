@@ -16,8 +16,6 @@ import com.sample.edgedetection.factory.miscellaneous.ThresholdFactory
 import org.opencv.android.OpenCVLoader
 import org.opencv.core.Core
 
-
-
 class EdgeDetectionPlugin(
     private val registrar: Registrar,
     private val delegate: EdgeDetectionDelegate
