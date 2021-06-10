@@ -38,7 +38,7 @@ class CropActivity : BaseActivity(), ICropView.Proxy {
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.crop_activity_menu, menu)
 
-        menu.setGroupVisible(R.id.enhance_group, showMenuItems)
+//        menu.setGroupVisible(R.id.enhance_group, showMenuItems)
 
         menu.findItem(R.id.rotation_image).isVisible = showMenuItems
 
@@ -91,17 +91,17 @@ class CropActivity : BaseActivity(), ICropView.Proxy {
         }
 
 
-        if (item.title == applicationContext.getString(R.string.black)) {
-            Log.e(TAG, "Black White touched!")
-            mPresenter.enhance()
-            return true
-        }
-
-        if (item.title == applicationContext.getString(R.string.reset)) {
-            Log.e(TAG, "Reset touched!")
-            mPresenter.reset()
-            return true
-        }
+//        if (item.title == applicationContext.getString(R.string.black)) {
+//            Log.e(TAG, "Black White touched!")
+//            mPresenter.enhance()
+//            return true
+//        }
+//
+//        if (item.title == applicationContext.getString(R.string.reset)) {
+//            Log.e(TAG, "Reset touched!")
+//            mPresenter.reset()
+//            return true
+//        }
 
         return super.onOptionsItemSelected(item)
     }

@@ -10,7 +10,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a74775c-c8b4-45a5-bf8b-5e9838f97319" name="Default Changelist" comment="" />
+    <list default="true" id="6a74775c-c8b4-45a5-bf8b-5e9838f97319" name="Default Changelist" comment="IOS">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/kotlin/com/sample/edgedetection/crop/CropActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/kotlin/com/sample/edgedetection/crop/CropActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/res/drawable-anydpi/ic_camera_white.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/res/layout/activity_scan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/res/layout/activity_scan.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/res/menu/crop_activity_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/res/menu/crop_activity_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edge_detection.iml" beforeDir="false" afterPath="$PROJECT_DIR$/edge_detection.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/EdgeDetectionPlugin.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/EdgeDetectionPlugin.m" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,12 +43,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/android/src/main/res/drawable-anydpi" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Test\Example\ocr_example\open_cv\edge_detection_open_cv\android\src\main\res\drawable-anydpi" />
+      <recent name="D:\Test\Example\ocr_example\open_cv\edge_detection_open_cv\android\src\main\res\drawable-xxhdpi" />
+      <recent name="D:\Test\Example\ocr_example\open_cv\edge_detection_open_cv\android\src\main\res\drawable-xhdpi" />
+      <recent name="D:\Test\Example\ocr_example\open_cv\edge_detection_open_cv\android\src\main\res\drawable-hdpi" />
       <recent name="D:\Test\Example\ocr_example\edge_detection-master\lib" />
     </key>
   </component>
@@ -66,7 +80,28 @@
       <option name="project" value="LOCAL" />
       <updated>1623234054137</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="IOS">
+      <created>1623236053319</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1623236053319</updated>
+    </task>
+    <task id="LOCAL-00004" summary="IOS">
+      <created>1623236157799</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1623236157799</updated>
+    </task>
+    <task id="LOCAL-00005" summary="IOS">
+      <created>1623236334951</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1623236334951</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -79,6 +114,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -88,30 +124,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="IOS" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="2" key="GridCell.Tab.0.bottom" timestamp="1623229870965">
+    <state width="938" height="276" key="GridCell.Tab.0.bottom" timestamp="1623310930788">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="2" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1623229870965" />
-    <state width="1877" height="2" key="GridCell.Tab.0.center" timestamp="1623229870965">
+    <state width="938" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1623310930788" />
+    <state width="938" height="276" key="GridCell.Tab.0.center" timestamp="1623310930788">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="2" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1623229870965" />
-    <state width="1877" height="2" key="GridCell.Tab.0.left" timestamp="1623229870965">
+    <state width="938" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1623310930788" />
+    <state width="938" height="276" key="GridCell.Tab.0.left" timestamp="1623310930788">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="2" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1623229870965" />
-    <state width="1877" height="2" key="GridCell.Tab.0.right" timestamp="1623229870965">
+    <state width="938" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1623310930788" />
+    <state width="938" height="276" key="GridCell.Tab.0.right" timestamp="1623310930788">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="2" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1623229870965" />
+    <state width="938" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1623310930788" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1623234298559">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1623234298559" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1623235259029">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1623311532733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1623235259029" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1623311532733" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1623234042029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -124,9 +160,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="421" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1623234440995" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1622700786205">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1623306765834">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1622700786205" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1623306765834" />
   </component>
 </project>

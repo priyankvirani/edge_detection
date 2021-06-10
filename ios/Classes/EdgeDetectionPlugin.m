@@ -132,6 +132,7 @@
         int kernelSizeInt[2] = {x,y};
 
         [Filter2DFactory processWhitPathType:pathType pathString:pathString data:data outputDepth:outputDepth kernelSize:kernelSizeInt result:result];
+
     }
     else if ([@"gaussianBlur" isEqualToString:call.method]) {
 

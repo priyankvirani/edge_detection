@@ -21,14 +21,14 @@
 <!--        android:icon="@drawable/ic_reset_colors"/>-->
 
 
-    <group android:checkableBehavior="single"
-        android:id="@+id/enhance_group">
-        <item
-            android:id="@+id/gray"
-            android:title="@string/black"
-            android:icon="@drawable/ic_done"/>
-        <item android:id="@+id/reset"
-            android:title="@string/reset"
-            android:icon="@drawable/ic_reset_colors"/>
-    </group>
+<!--    <group android:checkableBehavior="single"-->
+<!--        android:id="@+id/enhance_group">-->
+<!--        <item-->
+<!--            android:id="@+id/gray"-->
+<!--            android:title="@string/black"-->
+<!--            android:icon="@drawable/ic_done"/>-->
+<!--        <item android:id="@+id/reset"-->
+<!--            android:title="@string/reset"-->
+<!--            android:icon="@drawable/ic_reset_colors"/>-->
+<!--    </group>-->
 </menu>
