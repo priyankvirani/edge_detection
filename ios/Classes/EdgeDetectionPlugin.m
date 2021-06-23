@@ -35,17 +35,18 @@
   FlutterMethodChannel* channel = [FlutterMethodChannel
         methodChannelWithName:@"edge_detection"
               binaryMessenger:[registrar messenger]];
-    Opencv4Plugin* instance = [[Opencv4Plugin alloc] init];
+    EdgeDetectionPlugin* instance = [[EdgeDetectionPlugin alloc] init];
     [registrar addMethodCallDelegate:instance channel:channel];
 }
 
 - (void)handleMethodCall:(FlutterMethodCall*)call result:(FlutterResult)result {
-  // Note: this method is invoked on the UI thread.
-    if ([@"getVersion" isEqualToString:call.method]) {
-        result([NSString stringWithFormat:@"%s", cv::getVersionString().c_str()]);
-    }
-    //Module: Image Filtering
-    else if ([@"bilateralFilter" isEqualToString:call.method]) {
+//   Note: this method is invoked on the UI thread.
+//     if ([@"getVersion" isEqualToString:call.method]) {
+//         result([NSString stringWithFormat:@"%s", cv::getVersionString().c_str()]);
+//     }
+//     //Module: Image Filtering
+//     else
+    if ([@"bilateralFilter" isEqualToString:call.method]) {
 
         int pathType = [call.arguments[@"pathType"] intValue];
         NSString* pathString = call.arguments[@"pathString"];

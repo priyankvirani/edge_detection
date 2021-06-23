@@ -1,16 +1,33 @@
 PODS:
   - edge_detection (1.0.6):
     - Flutter
+    - OpenCV2 (= 4.3.0)
     - WeScan
   - Flutter (1.0.0)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - image_picker (0.0.1):
+    - Flutter
+  - OpenCV2 (4.3.0)
+  - path_provider (0.0.1):
+    - Flutter
+  - sqflite (0.0.2):
+    - Flutter
+    - FMDB (>= 2.7.5)
   - WeScan (1.7.0)
 
 DEPENDENCIES:
   - edge_detection (from `.symlinks/plugins/edge_detection/ios`)
   - Flutter (from `Flutter`)
+  - image_picker (from `.symlinks/plugins/image_picker/ios`)
+  - path_provider (from `.symlinks/plugins/path_provider/ios`)
+  - sqflite (from `.symlinks/plugins/sqflite/ios`)
 
 SPEC REPOS:
   trunk:
+    - FMDB
+    - OpenCV2
     - WeScan
 
 EXTERNAL SOURCES:
@@ -18,12 +35,23 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/edge_detection/ios"
   Flutter:
     :path: Flutter
+  image_picker:
+    :path: ".symlinks/plugins/image_picker/ios"
+  path_provider:
+    :path: ".symlinks/plugins/path_provider/ios"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/ios"
 
 SPEC CHECKSUMS:
-  edge_detection: bb5ba8bf3924361ef278c891c5c14e51d5bafb9b
+  edge_detection: f220cba1b2b88355bad16484b870f40c911c1be5
   Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  image_picker: 50e7c7ff960e5f58faa4d1f4af84a771c671bc4a
+  OpenCV2: ffe82e5cb5d16dc3fc01a5f4127b9a5b3cfc7d1b
+  path_provider: abfe2b5c733d04e238b0d8691db0cfd63a27a93c
+  sqflite: 6d358c025f5b867b29ed92fc697fd34924e11904
   WeScan: fed582f6c38014d529afb5aa9ffd1bad38fc72b7
 
-PODFILE CHECKSUM: 0cf5276381fde92a1fe42f83e0dc18319dfe28c3
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
 
 COCOAPODS: 1.10.1

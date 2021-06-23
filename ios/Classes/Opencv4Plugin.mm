@@ -22,7 +22,7 @@
 @implementation Opencv4Plugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
   FlutterMethodChannel* channel = [FlutterMethodChannel
-      methodChannelWithName:@"edge_detection"
+      methodChannelWithName:@"opencv_4"
             binaryMessenger:[registrar messenger]];
   Opencv4Plugin* instance = [[Opencv4Plugin alloc] init];
   [registrar addMethodCallDelegate:instance channel:channel];
