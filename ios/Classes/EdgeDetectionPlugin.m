@@ -39,7 +39,7 @@
     [registrar addMethodCallDelegate:instance channel:channel];
 }
 
-- (void)handleMethodCall:(FlutterMethodCall*)call result:(FlutterResult)result {
+- (void)handleMethodCall:(FlutterMethodCall*)call result:(FlutterResult) result {
 //   Note: this method is invoked on the UI thread.
 //     if ([@"getVersion" isEqualToString:call.method]) {
 //         result([NSString stringWithFormat:@"%s", cv::getVersionString().c_str()]);
@@ -75,6 +75,7 @@
         double anchorPointDouble[2] = {p1,p2};
 
         [BlurFactory processWhitPathType:pathType pathString:pathString data:data kernelSize:kernelSizeDouble anchorPoint:anchorPointDouble borderType:borderType result:result];
+
     }
     else if ([@"boxFilter" isEqualToString:call.method]) {
 
@@ -94,6 +95,7 @@
         double anchorPointDouble[2] = {p1,p2};
 
         [BoxFilterFactory processWhitPathType:pathType pathString:pathString data:data outputDepth:outputDepth kernelSize:kernelSizeDouble anchorPoint:anchorPointDouble normalize:normalize borderType:borderType result:result];
+
     }
     else if ([@"dilate" isEqualToString:call.method]) {
 
@@ -107,6 +109,7 @@
 
 
         [DilateFactory processWhitPathType:pathType pathString:pathString data:data kernelSize:kernelSizeDouble result:result];
+
     }
     else if ([@"erode" isEqualToString:call.method]) {
 
@@ -120,6 +123,7 @@
 
 
         [ErodeFactory processWhitPathType:pathType pathString:pathString data:data kernelSize:kernelSizeDouble result:result];
+
     }
     else if ([@"filter2D" isEqualToString:call.method]) {
 
@@ -147,6 +151,7 @@
         double kernelSizeDouble[2] = {x,y};
 
         [GaussianBlurFactory processWhitPathType:pathType pathString:pathString data:data kernelSize:kernelSizeDouble sigmaX:sigmaX result:result];
+
     }
     else if ([@"laplacian" isEqualToString:call.method]) {
 
@@ -180,6 +185,7 @@
         int kernelSizeInt[2] = {x,y};
 
         [MorphologyExFactory processWhitPathType:pathType pathString:pathString data:data operation:operation kernelSize:kernelSizeInt result:result];
+
     }
     else if ([@"pyrMeanShiftFiltering" isEqualToString:call.method]) {
 
@@ -201,6 +207,7 @@
         int dy = [call.arguments[@"dy"] intValue];
 
         [ScharrFactory processWhitPathType:pathType pathString:pathString data:data depth:depth dx:dx dy:dy result:result];
+
     }
     else if ([@"sobel" isEqualToString:call.method]) {
 
@@ -212,6 +219,7 @@
         int dy = [call.arguments[@"dy"] intValue];
 
         [SobelFactory processWhitPathType:pathType pathString:pathString data:data depth:depth dx:dx dy:dy result:result];
+
     }
     else if ([@"sqrBoxFilter" isEqualToString:call.method]) {
 
@@ -225,6 +233,7 @@
         double kernelSizeDouble[2] = {x,y};
 
         [SqrBoxFilterFactory processWhitPathType:pathType pathString:pathString data:data outputDepth:outputDepth kernelSize:kernelSizeDouble result:result];
+
     }
     //Module: Miscellaneous Image Transformations
     else if ([@"adaptiveThreshold" isEqualToString:call.method]) {
@@ -239,6 +248,7 @@
         double constantValue = [call.arguments[@"constantValue"] doubleValue];
 
         [AdaptiveThresholdFactory processWhitPathType:pathType pathString:pathString data:data maxValue:maxValue adaptiveMethod:adaptiveMethod thresholdType:thresholdType blockSize:blockSize constantValue:constantValue result:result];
+
     }
     else if ([@"distanceTransform" isEqualToString:call.method]) {
 
@@ -249,6 +259,7 @@
         int maskSize = [call.arguments[@"maskSize"] intValue];
 
         [DistanceTransformFactory processWhitPathType:pathType pathString:pathString data:data distanceType:distanceType maskSize:maskSize result:result];
+
     }
     else if ([@"threshold" isEqualToString:call.method]) {
 
@@ -259,8 +270,8 @@
         double maxThresholdValue = [call.arguments[@"maxThresholdValue"] doubleValue];
         int thresholdType = [call.arguments[@"thresholdType"] intValue];
 
-
         [ThresholdFactory processWhitPathType:pathType pathString:pathString data:data thresholdValue:thresholdValue maxThresholdValue:maxThresholdValue thresholdType:thresholdType result:result];
+
     }
     else if ([@"applyColorMap" isEqualToString:call.method]) {
 
